@@ -1,6 +1,6 @@
 {
   "name": "Random-Quote-Generator",
-  "homepage": "https://sakibur-karim.github.io/Random-Quote-Generator/"
+  "homepage": "https://sakibur-karim.github.io/Random-Quote-Generator/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
