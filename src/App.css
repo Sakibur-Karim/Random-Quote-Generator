@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+  animation: App 2s linear infinite alternate;
+}
+
+@keyframes App {
+  from {
+    background-color: rgb(209, 255, 134);
+  }
+  to {
+    background-color: rgb(125, 214, 230);
+  }
+}
+
+.Text {
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+  min-width: 100px;
+  border: 10px solid red;
+  background: whitesmoke;
+  padding: 100px;
+}
+
+button {
+  background-color: rgb(0, 110, 255);
+  font-size: 16px;
+  padding: 10px;
+  border-color: yellow;
+  color: white
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 174, 255);
+}
+
+p {
+  text-align: end;
+  
+}
